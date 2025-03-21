@@ -12,6 +12,9 @@ function as I did
  bool strict = (( 1000 == stoi("1000") ) && (typeid(1000).name() == typeid("1000").name )) // false or 0 
 
 it's super simple in javascript you don't have to write all of that instead for loose write
+
 let loose = 1000 == "1000" 
-and for strict write 
+
+and for strict write
+
 let strict = 1000 === "1000" 
